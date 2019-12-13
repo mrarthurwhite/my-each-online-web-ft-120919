@@ -15,6 +15,10 @@ def my_each(array)
 end
 
 my_each( [1,2,3]) do |name|
-
+  puts name
 end
 
+# reference
+# array.each do |name|
+#  puts name
+# end
